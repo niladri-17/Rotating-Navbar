@@ -132,6 +132,11 @@ body {
     width: 2vw;
     opacity: 0.1;
   }
+  .smcircle {
+    width: 1vw;
+    height: 1vw;
+    right: -0.9vw;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
