@@ -119,13 +119,13 @@ body {
 
 @media screen and (max-width: 375px) {
   #circle {
-    left: -390%;
+    left: -380%;
   }
   .second h4 {
-    font-size: 6vw;
+    font-size: 4vw;
   }
   .second h6 {
-    font-size: 4vw;
+    font-size: 2vw;
   }
 }
 
