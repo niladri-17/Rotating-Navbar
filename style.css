@@ -114,9 +114,9 @@ body {
   opacity: 0.08;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
   #circle {
-    left: -150%;
+    left: -310%;
   }
 }
 
