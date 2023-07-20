@@ -7,9 +7,9 @@
 
 html,
 body {
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 #main {
@@ -17,11 +17,12 @@ body {
   height: 100vh;
   /* background-color: red; */
   background-color: #ffff;
+  /* overflow-y: hidden !important; */
 }
 
 #circle {
   position: absolute;
-  left: -100vh;
+  left: -50%;
   top: 50%;
   transform: translate(0, -50%) rotate(100deg);
   border-radius: 50%;
@@ -69,7 +70,7 @@ body {
   height: 0.5vw;
   border-radius: 50%;
   position: absolute;
-  right: -0.3vw;
+  right: -0.32vw;
   top: 50%;
   transform: translate(0, -50%);
   background-color: #878787;
@@ -90,4 +91,27 @@ body {
   font-size: 1.1vw;
   opacity: 0.5;
   font-weight: 500;
+}
+
+#panel {
+  width: 5%;
+  height: 30%;
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+.mncircle {
+  cursor: pointer;
+  height: 1vw;
+  width: 1vw;
+  border-radius: 50%;
+  background-color: black;
+  opacity: 0.08;
 }
