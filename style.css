@@ -114,7 +114,7 @@ body {
   width: 1vw;
   border-radius: 50%;
   background-color: black;
-  opacity: 0.08;
+  opacity: 0.05;
 }
 
 @media screen and (max-width: 375px) {
@@ -126,6 +126,11 @@ body {
   }
   .second h6 {
     font-size: 2vw;
+  }
+  .mncircle {
+    height: 2vw;
+    width: 2vw;
+    opacity: 0.1;
   }
 }
 
