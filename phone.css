@@ -1,5 +1,29 @@
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 500px) {
   #circle {
-    left: -150%;
+    left: -355%;
+  }
+  .second h4 {
+    font-size: 4vw;
+  }
+  .second h6 {
+    font-size: 2vw;
+  }
+  .mncircle {
+    height: 2vw;
+    width: 2vw;
+    opacity: 0.1;
+  }
+  .smcircle {
+    width: 1vw;
+    height: 1vw;
+    right: -0.9vw;
+  }
+  .hovercircle {
+    height: 10vh;
+    width: 10vh;
+  }
+  .hovercircle a {
+    font-size: 4vw;
   }
 }
